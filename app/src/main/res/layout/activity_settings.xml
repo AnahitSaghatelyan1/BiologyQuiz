@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Настройки"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Количество вопросов"
+        android:textSize="16sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="8dp"/>
+
+    <SeekBar
+        android:id="@+id/questionsCountSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="15"
+        android:progress="5"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/questionsCountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 вопросов"
+        android:textSize="14sp"
+        android:textColor="@color/secondary_text"
+        android:layout_marginBottom="24dp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/showHintsSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показывать подсказки"
+        android:textSize="16sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/showExplanationsSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показывать объяснения"
+        android:textSize="16sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/soundSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Звуковые эффекты"
+        android:textSize="16sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"/>
+</LinearLayout>
