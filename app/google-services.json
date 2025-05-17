@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "375380011803",
+    "firebase_url": "https://biologyquiz-3a3c8-default-rtdb.firebaseio.com",
+    "project_id": "biologyquiz-3a3c8",
+    "storage_bucket": "biologyquiz-3a3c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375380011803:android:b46e1c4c5758b317cd41be",
+        "android_client_info": {
+          "package_name": "com.anahit.biologyquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGrtGuMsXgsD3sg-3JK0yT7FVIBzSR6DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375380011803:android:5eb97971bfdb9e99cd41be",
+        "android_client_info": {
+          "package_name": "com.example.biologyquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGrtGuMsXgsD3sg-3JK0yT7FVIBzSR6DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375380011803:android:b9654c549caedd01cd41be",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGrtGuMsXgsD3sg-3JK0yT7FVIBzSR6DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
