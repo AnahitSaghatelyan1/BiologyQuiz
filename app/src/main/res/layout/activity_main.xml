@@ -7,10 +7,12 @@
     android:padding="16dp"
     android:gravity="center">
 
+    
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Биология Квиз"
+        android:text="Biology Quiz"
         android:textSize="32sp"
         android:textStyle="bold"
         android:textColor="@color/primary"
@@ -21,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/primary_dark"
-        android:text="Начать квиз"
+        android:text="Start Quiz"
         android:layout_marginBottom="16dp"/>
 
     <Button
@@ -29,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/primary_dark"
-        android:text="Настройки"
+        android:text="Settings"
         android:layout_marginBottom="16dp"/>
 
     <Button
@@ -37,8 +39,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/primary_dark"
-        android:text="Статистика"
+        android:text="Statistics"
+        android:layout_marginBottom="16dp"/>
 
+    <Button
+        android:id="@+id/accountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary_dark"
+        android:text="Account"
         android:layout_marginBottom="16dp"/>
 
     <Button
@@ -46,6 +55,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/primary_dark"
-        android:text="О приложении"/>
+        android:text="About App"
+        android:layout_marginBottom="16dp"/>
+
+    
 
 </LinearLayout>

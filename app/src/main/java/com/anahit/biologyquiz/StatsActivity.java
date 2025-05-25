@@ -2,6 +2,7 @@ package com.anahit.biologyquiz;
 
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -17,6 +18,10 @@ public class StatsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stats);
+
+        // Add exit button click listener
+        ImageButton exitButton = findViewById(R.id.exitButton);
+        exitButton.setOnClickListener(v -> finish());
 
         stats = new QuizStats(this);
         initializeViews();

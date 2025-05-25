@@ -69,7 +69,7 @@ public class Register extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.buttonRegister).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_register).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String email = editTextEmail.getText().toString().trim();

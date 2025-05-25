@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.button.MaterialButton;
 import java.util.ArrayList;
+import com.anahit.biologyquiz.R;
 
 public class ResultsActivity extends AppCompatActivity {
     private TextView scoreText;
